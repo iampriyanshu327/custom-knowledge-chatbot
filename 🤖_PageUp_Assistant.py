@@ -3,7 +3,7 @@ from sentence_transformers import SentenceTransformer
 from chromadb import PersistentClient
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyDj2ssBbwiPQ7oHIoAXfFc1o-3u9ErCYD4")
+genai.configure(api_key="<your api key>")
 model2 = genai.GenerativeModel('gemini-1.5-flash')
 
 MODEL_NAME = "all-MiniLM-L6-v2"
