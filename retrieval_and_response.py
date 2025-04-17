@@ -5,7 +5,7 @@ from chromadb.config import Settings
 from sentence_transformers import SentenceTransformer
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyDj2ssBbwiPQ7oHIoAXfFc1o-3u9ErCYD4")
+genai.configure(api_key="<Your api key>")
 
 model2 = genai.GenerativeModel('gemini-1.5-flash')
 
